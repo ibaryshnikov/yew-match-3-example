@@ -170,7 +170,7 @@ fn cell(value: &String) -> Html<Context, Model> {
                 user-select: none;\
                 -moz-user-select: none;\
                 ",
-                onclick=|_| Msg::Roll,
+                onmousedown=|_| Msg::Roll,
         >
             { value }
         </div>
